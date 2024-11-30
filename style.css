@@ -9,16 +9,6 @@ body {
     width: 100%;
 }
 
-/* .img_div { */
-    /* position: absolute; */
-    /* z-index: -1; */
-    /* display: none; */
-/* } */
-
-/* .img_div img { */
-    /* width: 100%; */
-    /* display: block; */
-/* } */
 
 /*            let start */
 .header {
@@ -96,6 +86,9 @@ body {
     width: 150px;
 }
 
+#menubar{
+    display: none;
+}
 .nav_list {
     height: 100%;
     width: 869px;
@@ -176,11 +169,13 @@ body {
     text-align: center;
 }
 
-.img_containBottom pre {
+.img_containBottom .bg {
     font-size: 20px;
     color: white;
 }
-
+.mobileSC{
+    display: none;
+}
 .btnDiv button {
     width: 200px;
     margin-top: 40px;
@@ -217,20 +212,22 @@ body {
     color: black;
 }
 
-.advantagesTop pre {
+.advantagesTop .dextScAdPre {
     margin-top: 10px;
     color: #d6d7d8;
 }
+.advantagesTop .mobScAdPre {
+    display: none;
+}
 
 .advantagesbottom {
-    width: 100%;
+    width: 80%;
     height: 263px;
+    margin: auto;
     margin-top: 9px;
     display: flex;
     padding-left: 58px;
     gap: 38px;
-
-
 }
 
 .bottomIcons {
@@ -270,6 +267,7 @@ body {
 
 /* About US */
 .aboutUs {
+    padding-top: 20px;
     height: 470px;
     width: 100%;
     background-image: url(./images/about.png);
@@ -309,11 +307,14 @@ body {
     margin-left: 81px;
 }
 
+.aboutUs img{
+    display: none;
+}
 /* services */
 .services {
     width: 100%;
-    height: 469px;
     background-color: WHITE;
+    padding-bottom: 30px ;
 }
 
 .servicesTop {
@@ -330,14 +331,19 @@ body {
     color: #678e19;
 }
 
-.servicesTop pre {
+.servicesTop .bgScSerPre {
     margin-top: 9px;
     color: #d6d7d8;
 }
+.servicesTop .mobScSerPre{
+    display: none;
+}
+
 
 .servicesBottom {
-    width: 100%;
-    height: 283px;
+    width: 80%;
+    /* height: 283px; */
+    margin: auto;
     display: flex;
     padding-left: 84PX;
     gap: 20px;
@@ -396,6 +402,7 @@ body {
     height: 707px;
     text-align: center;
     background-color: black;
+    padding-top: 30px;
 }
 
 .ourPortfolioTop {
@@ -415,11 +422,13 @@ body {
     color: white;
 }
 
-.ourPortfolioTop pre {
+.ourPortfolioTop .bgScPortPre {
     margin-top: 9px;
     color: #d6d7d8;
 }
-
+.ourPortfolioTop .mobScPortPre {
+   display: none;
+}
 .ourPortfolioTop ul {
     display: flex;
     gap: 14px;
@@ -523,11 +532,10 @@ body {
 /* OurProcess */
 
 .ourProcess{
-    height: 428px;
     width: 100%;
-    /* border: 2px solid red; */
     background-color: white;
     text-align: center;
+    padding-bottom: 30px;
 }
 .ourProcess h1 {
     font-size: 42px;
@@ -536,16 +544,17 @@ body {
     color: #678e19;
 }
 
-.ourProcess  pre {
+.ourProcess  .bgScOurProPre {
     margin-top: 9px;
     color: #d6d7d8;
     margin-bottom: 15px;
 }
+.ourProcess  .mobScOurProPre {
+    display: none;
+}
 
 .processIcons {
-    height: 255px;
     width: 1119px;
-    /* border: 2px solid blue; */
     margin: auto;
     display: flex;
     gap: 41px;
@@ -605,9 +614,10 @@ body {
 
 /* People About US  */
 .peopleAboutUs{
-    height: 515px;
     width: 100%;
     background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 .peopleAboutUs .peopleAboutUsTop{
     text-align: center;
@@ -615,14 +625,16 @@ body {
 .peopleAboutUs h1 {
     font-size: 43px;
     font-weight: 600;
-    margin-top: 38px;
     color: #678e19;
 }
-.peopleAboutUs pre {
+.peopleAboutUs .bgPeopleAbUSPre {
     color: #d4d5d7;
     margin-top: 11px;
     font-size: 15px;
     font-weight: 600;
+}
+.peopleAboutUs .mobPeopleAbUSPre {
+    display: none;
 }
 
 .reveiwsDiv {
@@ -676,8 +688,8 @@ body {
 /* Our SKILLS */
 .ourSkills{
     width: 100%;
-    height: 478px;
     background-color: white;
+    padding-bottom: 30px;
 }
 
 .ourSkillsTop {
@@ -690,16 +702,19 @@ body {
     margin-top: 30px;
     color: #678e19;
 }
-.ourSkillsTop pre {
+.ourSkillsTop .bgskillPre {
     color: #d4d5d7;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
 }
+.ourSkillsTop .mobskillPre {
+    display: none;
+}
+
 
 .ourSkillsBottom {
     width: 1021px;
-    height: 283px;
     margin: auto;
     display: flex;
     gap: 38px;
@@ -754,10 +769,11 @@ body {
 
 /* form */
 .form{
-    height: 314px;
     width: 100%;
     text-align: center ;
     background-color: #8ec63f;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .form h1 {
@@ -798,11 +814,15 @@ body {
     border: none;
 }
 
-.form pre {
+.form .bgFormPre {
     color: white;
     margin-top: 33px;
     font-size: 15px;
     font-weight: 600;
+}
+
+.form .mobFormPre {
+    display: none;    
 }
 
 /* contact with us */
@@ -822,13 +842,15 @@ body {
 
 }
 
-.contactWithUs pre {
+.contactWithUs .bgContPre {
     color: #d4d5d7;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
-
+}
+.contactWithUs .mobContPre {
+   display: none;
 }
 .contactWithUs p {
     margin-top: 8px;
@@ -867,7 +889,10 @@ body {
 
 
 /* FOOTER */
-footer{
+.mobFooter{
+    display: none;
+}
+.deskFooter{
     height: 368px;
     width: 100%;
     border: 2px solid transparent;
@@ -1013,130 +1038,689 @@ footer{
 
 
 
+
 /* Smaller Screen */
-@media screen and (max-width: 800px) {
-    
-    /* Header and Navbar */
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
     .header {
-        height: auto;
-        padding: 10px 0;
+    width: 100%;
+    height: 138px;
+}
+
+.header_top {
+    width: 100%;
+    height: 52px;
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.social_icon {
+    height: 100%;
+    width: 200px;   
+}
+
+.contact {
+   width: 125px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contact p {
+    display: none;
+}
+
+.contact box-icon{
+    display: none;
+
+}
+
+.contact .call_btn {
+    margin-left: 0 ;
+    margin-right: 10px;
+}
+
+.navbar img {
+    margin-left: 34px;
+    width: 100px;
+}
+
+.nav_list {
+    display: none;
+}
+#menubar{
+    display: block;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+/* swipper  */
+
+.sliderImg {
+    width: 100%;
+    height: 524px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 525px;
+}
+
+.img_contain {
+    width: 100%;
+    height: 252px;
+    position: absolute;
+    top: 162px;
+    left: 0px;
+
+}
+
+.img_containTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv {
+    height: 50px;
+    width: 170px;
+    background-color: #a2d84c;
+}
+
+.rightDiv {
+    height: 50px;
+    width: 170px;
+    background-color: #a2d84c;
+}
+
+.img_contain h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.img_containBottom {
+    height: 147px;
+    width: 100%;
+    margin-top: 27px;
+    text-align: center;
+}
+
+.img_containBottom .bg {
+    display: none;
+}
+
+.img_containBottom .mobileSC{
+    display: block;
+    margin-top: 40px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+.btnDiv button {
+    width: 200px;
+    margin-top: 80px;
+    font-size: 18px;
+    padding: 12px 41px;
+    border: none;
+    outline: none;
+    background-color: #FEBD19;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+/* Advantages */
+.advantages {
+    height: 1900px;
+    width: 100%;
+    background-color: white;
+}
+
+.advantagesTop {
+    height: 133px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.advantagesTop h1 {
+    margin-top: 32px;
+    color: #678e19;
+    font-size: 30px;
+}
+
+.sp1 {
+    color: black;
+}
+
+.advantagesTop .dextScAdPre {
+    display: none;
+
+}
+.advantagesTop .mobScAdPre {
+    display: block;
+    margin-top: 10px;
+    color: #d6d7d8;
+}
+
+.advantagesbottom {
+    height: 1000px;
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 58px;
+    gap: 38px;
+
+
+}
+
+.bottomIcons {
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+
+.roundDiv {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: #f1f3f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        box-shadow: 0 0 8px 0 black;
     }
+}
+
+.roundDiv img{
+    height: 220px;
+    width: 220px;
+}
+
+.iconsH1 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bottomIcons p {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c1c2c4
+}
+
+/* About US */
+.aboutUs {
+    height: 795px;
+    width: 100%;
+    background-image: url(./images/mobile_About_US.png);   
+    padding-top: 10px;
+}
+
+.aboutUs h1 {
+    font-size: 35px;   
+}
+
+.aboutUsPara {
+    width: 100%; 
+    margin-left: 10px;
+    margin-top: 27px;
+}
+
+.aboutUs img{
+    display: block;
+    margin-top: 50px;
+    height: 312px;
+    width: 100%;
+}
+
+/* services */
+.services {
+    width: 100%;
+}
+
+.servicesTop {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+
+}
+
+.servicesTop h1 {
+    font-size: 35px;
+}
+
+.servicesTop .bgScSerPre {
+    display: none;
+}
+.servicesTop .mobScSerPre{
+    display: block;
+    margin-top: 9px;
+    color: #d6d7d8;
+}
+
+
+.servicesBottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.starsCarts {
+    height: 225px;
+}
+
+
+/* our portfolio */
+
+.ourPortfolio {
+    width: 100%;
+    height: 1235px;
+    padding-bottom: 50px;
+}
+
+.ourPortfolioTop h1 {
+    font-size: 35px;
+}
+
+.ourPortfolioTop .bgScPortPre {
+   display: none;
+}
+.ourPortfolioTop .mobScPortPre {
+    display: block;
+    margin-top: 9px;
+    color: #d6d7d8;
+}
+.ourPortfolioTop ul {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+}
+
+
+.ourPortfolioTop ul li a {
+    font-size: 17px;
+}
+
+.ourPortfolioBottom {
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
+.ourPortfolioBottom .portCard {
+    width: 200px;
+    height: 200px;   
+}
+
+
+/* OurProcess */
+
+.ourProcess{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.ourProcess h1 {
+    font-size: 35px;
+}
+
+.ourProcess  .bgScOurProPre {
+    display: none;
+}
+.ourProcess  .mobScOurProPre {
+    display: block;
+    margin-top: 9px;
+    color: #d6d7d8;
+    margin-bottom: 15px;
+}
+
+.processIcons {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column ;
+    margin-left: 100px;  
+}
+.processIcons .iconsDiv {
+    width: 260px;
+    border: 4px solid #d2d3d5;
+}
+
+
+
+.processIconsCircle::after {
+    top: 0%;
+    left: 0;
+    height: 0;
+    width: 0;
+}
+
+/* People About US  */
+.peopleAboutUs{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+
+}
+
+.peopleAboutUs h1 {
+    font-size: 35px;
+    margin-top: 0;
+
+}
+.peopleAboutUs .bgPeopleAbUSPre {
+    display: none;
+}
+.peopleAboutUs .mobPeopleAbUSPre {
+    display: block;
+    color: #d4d5d7;
+    margin-top: 11px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.reveiwsDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reveiwsDiv .review2{
+ margin-top: 20px;
+}
+.borderBottom{
+    border-top: 2px solid #c6c7c9;
+}
+.review{
+    height: 142px;
+    width: 590px;
+    display: flex;
+}
+
+.reviewCircle {
+    height: 80px;
+    width: 80px;
+  
+}
+
+.reviewWrite {
+    height: 100%;
+    width: 386px;
+    margin-left: 16px;
+}
+
+.reviewWrite h1{
+    font-size: 18px;
+  
+}
+
+.reviewWrite pre {
+    font-size: 12px;
+}
+
+
+/* Our SKILLS */
+.ourSkills{
+    width: 100%;
+    padding-bottom: 20px ;
+}
+
+.ourSkillsTop h1 {
+    font-size: 35px;
+}
+.ourSkillsTop .bgskillPre {
+    display: none;
+}
+.ourSkillsTop .mobskillPre {
+    display: block;
+    color: #d4d5d7;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.ourSkillsBottom {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+/* form */
+.form{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.form h1 {
+    font-size: 50px;
+}
+.contactInput {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.contactInput input {
+    width: 440px;
+}
+
+.contactInput button {
+    margin: 0;
+    margin-left: 117px;
+   
+}
+
+.form .bgFormPre {
+    display: none;
+}
+
+.form .mobFormPre {
+    display: block;  
+    color: white;
+    margin-top: 37px;
+    font-size: 15px;
+    font-weight: 600;  
+}
+
+/* contact with us */
+.contactWithUs {
+    height: 226px;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: white;
+}
+
+.contactWithUs h1 {
+    font-size: 35px;
+}
+
+.contactWithUs .bgContPre {
+   display: none;
+}
+.contactWithUs .mobContPre {
+   display: block;
+   color: #d4d5d7;
+   margin-top: 10px;
+   font-size: 15px;
+   font-weight: 600;
+   text-align: center;
+}
+.contactWithUs p {
+    font-size: 15px;
+}
+
+.phoneNumbers {
+    width: 100%;
+    gap:0px;
+}
+
+.phoneNumbers .numbers{
+    font-size: 15px;
+}
+
+/* GOOGLE LOPCATION */
+.googleMap{
+    width: 100%;
+    height: 405px;
+    border: 2px solid transparent;
+}
+
+.googleMap iframe{
+    width: 100%;
+    height: 100%;
     
-    .header_top, .navbar {
-        flex-direction: column;
+}
+
+/* FOOTER */
+.deskFooter{
+    display: none;
+}
+.mobFooter{
+    display: block;
+    width: 100%;
+    background-color: #678e19;
+    padding-bottom:10px ;
+    padding-top: 30px;
+}
+
+.footerContent {
+    height: 100%;
+    width: 100%;
+    border: 2px solid  transparent;
+    margin-top: 50px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footerFirst {
+    height: 80px;
+    width: 242px;
+    border: 2px solid transparent;
+    display: flex;
+    gap:20px;
+    margin-left: 20px ;
+    
+}
+
+.footerFirst img {
+    height: 72px;
+    width: 149px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.footerFirst pre {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: -13px;
+    color: white;
+}
+
+
+.footerFirst h1 {
+    display: none;
+}
+
+.copyRigth{
+    display: block;
+    font-size: 21px;
+    color: white;
+    margin-top: 41px;
+    margin-left: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mobfooterSer{
+    display: flex;
+    margin-top: 50px;
+}
+
+.footerSecond {
+    margin-left: 40px;
+}
+
+
+.footerThird {
+    border-right: none;
+    margin-left: 40px;
+}
+
+
+.footerLast {
+    width: 100%;
+    margin-left: 0px;
+}
+.footerLast h1{
+    margin-top: 30px;
+    margin-left: 14px;
+}
+
+.mobFooterNums{
+    display: flex;
+    gap: 20px;
+}
+.footerLast .cont{
+    margin-bottom: 27px;
+}
+
+.footerLast p {
+    font-size: 15px;
+    display: flex;
+}
+
+.footerLast .social_icon {
+    gap: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+}
+.mobCircle_icon{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #303030;
+        display: flex;
         align-items: center;
-    }
-
-    .navbar img {
-        margin: 0 auto;
-    }
-
-    .nav_list {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* Slider */
-    .sliderImg {
-        height: auto;
-    }
-
-    .swiper-slide img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Advantages section */
-    .advantagesbottom {
-        flex-wrap: wrap;
         justify-content: center;
-    }
+        margin-left: 10px;
+}
 
-    .bottomIcons {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* About Us Section */
-    .aboutUsPara {
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    /* Services Section */
-    .servicesBottom {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .starsCarts {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* Portfolio Section */
-    .ourPortfolioBottom {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-    .portCard {
-        width: 100%;
-    }
-
-    /* Process Section */
-    .processIcons {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .iconsDiv {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* People About Us Section */
-    .peopleAboutUs {
-        padding: 20px;
-    }
-
-    .review {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .reviewCircle {
-        margin-bottom: 10px;
-    }
-
-    .reviewWrite {
-        width: 100%;
-    }
-
-    /* Form Section */
-    .contactInput {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .contactInput input, .contactInput button {
-        width: 100%;
-    }
-
-    /* Footer Section */
-    footer {
-        padding: 20px 10px;
-    }
-
-    .footerContent {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footerFirst, .footerSecond, .footerThird, .footerLast {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+.mobCircle_icon box-icon{
+    height: 100%;
+    width: 100%;
+}
 }
