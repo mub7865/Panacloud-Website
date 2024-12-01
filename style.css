@@ -637,6 +637,9 @@ body {
     display: none;
 }
 
+.mobReveiwsDiv{
+    display: none;
+}
 .reveiwsDiv {
     margin-top: 20px;
     display: grid;
@@ -852,12 +855,14 @@ body {
 .contactWithUs .mobContPre {
    display: none;
 }
-.contactWithUs p {
+.bgContLoc {
     margin-top: 8px;
     margin-left: 27px;
     font-size: 25px;
     text-align: center;
-
+}
+.mobContLoc{
+    display: none;
 }
 
 .phoneNumbers {
@@ -1042,7 +1047,7 @@ body {
 /* Smaller Screen */
 @media screen and (max-width: 480px) {
     body {
-        width: 100%;
+        width: 480px;
     }
 
     .header {
@@ -1057,39 +1062,44 @@ body {
     width: 100%;
     height: 52px;
     display: flex;  
-    justify-content: space-between; 
+    justify-content: start; 
 }
 
 .social_icon {
     height: 100%;
-    width: 200px;   
+    width: 180px;   
 }
 
 .contact {
-   width: 125px;
-    height: 100%;
-    display: flex;
-    align-items: center;
+   display: none;
 
 }
 
-.contact p {
-    display: none;
+.mobCall_btn {
+    display: block;
+    margin-top: 8px;
+    height: 38px;
+    margin-left: 140px;
+    padding: 8px 8px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: #a2d84c;
+    font-size: 13px;
+    font-weight: 600;
 }
 
-.contact box-icon{
-    display: none;
+.navbar {
+    width: 100%;
+    height: 85px;
+    justify-content: start;
 
 }
-
-.contact .call_btn {
-    margin-left: 0 ;
-    margin-right: 10px;
-}
-
 .navbar img {
     margin-left: 34px;
-    width: 100px;
+    width: 90px;
+    height: 90%;
+    margin-top: 5px;
 }
 
 .nav_list {
@@ -1097,9 +1107,9 @@ body {
 }
 #menubar{
     display: block;
-    height: 100px;
-    width: 100px;
-    align-items: center;
+    height: 90px;
+    width: 90px;
+    margin-left: 222px;
 }
 
 /* swipper  */
@@ -1289,11 +1299,17 @@ body {
 }
 
 .aboutUsPara {
-    width: 100%; 
+    width: 90%; 
     margin-left: 10px;
     margin-top: 27px;
 }
 
+.aboutUsPara p {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
 .aboutUs img{
     display: block;
     margin-top: 50px;
@@ -1403,7 +1419,7 @@ body {
 }
 
 .processIcons {
-    width: 100%;
+    width: 260px;
     margin: 0;
     display: flex;
     flex-direction: column ;
@@ -1433,8 +1449,9 @@ body {
 
 .peopleAboutUs h1 {
     font-size: 35px;
-    margin-top: 0;
-
+    margin-top: 0;  
+    margin-right: 20px;
+  
 }
 .peopleAboutUs .bgPeopleAbUSPre {
     display: none;
@@ -1443,25 +1460,32 @@ body {
     display: block;
     color: #d4d5d7;
     margin-top: 11px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
+    text-align: center;
+    margin-right: 40px;
 }
 
+
 .reveiwsDiv {
+    display: none;    
+}
+
+.mobReveiwsDiv{
+    display: block;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-
-.reveiwsDiv .review2{
- margin-top: 20px;
-}
-.borderBottom{
-    border-top: 2px solid #c6c7c9;
-}
-.review{
+.mobReveiwsDiv .review2{
+    margin-top: 20px;
+   }
+   /* .borderBottom{
+       border-top: 2px solid #c6c7c9;
+   } */
+   .review{
     height: 142px;
-    width: 590px;
+    width: 100%;
     display: flex;
 }
 
@@ -1483,7 +1507,7 @@ body {
 }
 
 .reviewWrite pre {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 
@@ -1523,7 +1547,8 @@ body {
 }
 
 .form h1 {
-    font-size: 50px;
+    font-size: 35px;
+    margin-right: 35px;
 }
 .contactInput {
     width: 100%;
@@ -1535,7 +1560,7 @@ body {
 }
 
 .contactInput input {
-    width: 440px;
+    width: 400px;
 }
 
 .contactInput button {
@@ -1572,17 +1597,25 @@ body {
    display: none;
 }
 .contactWithUs .mobContPre {
-   display: block;
-   color: #d4d5d7;
-   margin-top: 10px;
-   font-size: 15px;
-   font-weight: 600;
-   text-align: center;
-}
-.contactWithUs p {
+    display: block;
+    color: #d4d5d7;
+    margin-top: 10px;
     font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 62px;
 }
+.bgContLoc{
+    display: none;
+}
+.mobContLoc{
+    display: block;
+    font-size: 15px;
+    margin-top: 8px;
+    /* margin-left: 27px; */
+    /* text-align: center; */
 
+}
 .phoneNumbers {
     width: 100%;
     gap:0px;
