@@ -1055,8 +1055,8 @@ body {
     }
 
     .header {
-    width: 620px;
-    height: 138px;
+        width: 100%;
+        height: 138px;
 }
     main{
         width: 100%;
@@ -1119,7 +1119,7 @@ body {
 /* swipper  */
 
 .sliderImg {
-    width: 620px;
+    width: 100%;
     height: 524px;
 }
 
@@ -1207,7 +1207,7 @@ body {
 /* Advantages */
 .advantages {
     height: 1900px;
-    width: 620px;
+    width: 100%;
     background-color: white;
 }
 
@@ -1291,7 +1291,7 @@ body {
 /* About US */
 .aboutUs {
     height: 795px;
-    width: 620px;
+    width: 100%;
     background-image: url(./images/mobile_About_US.png);   
     padding-top: 10px;
 }
@@ -1321,7 +1321,7 @@ body {
 
 /* services */
 .services {
-    width: 620px;
+    width: 100%;
 }
 
 .servicesTop {
@@ -1359,7 +1359,7 @@ body {
 /* our portfolio */
 
 .ourPortfolio {
-    width: 620px;
+    width: 100%;
     height: 1235px;
     padding-bottom: 50px;
 }
@@ -1403,7 +1403,7 @@ body {
 /* OurProcess */
 
 .ourProcess{
-    width: 620px;
+    width: 100%;
     padding-bottom: 40px;
 }
 .ourProcess h1 {
@@ -1443,7 +1443,7 @@ body {
 
 /* People About US  */
 .peopleAboutUs{
-    width: 620px;
+    width: 100%;
     background-color: #f2f2f2;
     padding-top: 30px;
 
@@ -1515,7 +1515,7 @@ body {
 
 /* Our SKILLS */
 .ourSkills{
-    width: 620px;
+    width: 100%;
     padding-bottom: 20px ;
 }
 
@@ -1544,7 +1544,7 @@ body {
 
 /* form */
 .form{
-    width: 620px;
+    width: 100%;
     padding-top: 30px;
 }
 
@@ -1586,7 +1586,7 @@ body {
 /* contact with us */
 .contactWithUs {
     height: 226px;
-    width: 620px;
+    width: 100%;
     border: 2px solid transparent;
     background-color: white;
 }
@@ -1629,7 +1629,7 @@ body {
 
 /* GOOGLE LOPCATION */
 .googleMap{
-    width: 620px;
+    width: 100%;
     height: 405px;
     border: 2px solid transparent;
 }
@@ -1646,7 +1646,7 @@ body {
 }
 .mobFooter{
     display: block;
-    width: 620px;
+    width: 100%;
     background-color: #678e19;
     padding-bottom:10px ;
     padding-top: 30px;
